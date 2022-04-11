@@ -26,7 +26,7 @@ const Modal = ({
     },
   );
 
-  //问题：useRequest例子https://ahooks.js.org/zh-CN/hooks/use-request/index
+  //useRequest例子https://ahooks.js.org/zh-CN/hooks/use-request/index
   const request = useRequest(
     (values) => {
       message.loading({ content: 'Processing...', key: 'process', duration: 3});
